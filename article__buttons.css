@@ -1,0 +1,52 @@
+.mainArticle__socailMedia {
+    grid-area: content ;
+    grid-row: 1;
+    grid-column: 3;
+    margin-right: -10px;
+}
+
+/* SELVE KNAPPERNE MED FARVE*/
+.facebook button {
+    background-color: rgb(72, 72, 168);
+}
+
+.twitter button {
+    background-color: rgb(62, 182, 238);
+}
+
+.mail button {
+    background-color: rgb(176, 176, 187);
+}
+
+.mainArticle__socailMedia img{
+    margin-top: 7px;
+    height: 20px;
+    width: 25px;
+    float: left;
+}
+
+.mainArticle__socailMedia ul{
+    display: flex;
+}
+
+.mainArticle__socailMedia li{
+    list-style-type: none;
+    margin-right: 10px;
+}
+.mainArticle__socailMedia button {
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+
+.mainArticle__socailMedia p {
+    color: white;
+    font-weight: 700;
+    justify-content: center;
+    align-content: center;
+}
+
+.mainArticle__socailMedia a {
+    text-decoration: none;
+}
+

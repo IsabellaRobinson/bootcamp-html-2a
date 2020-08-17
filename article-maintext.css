@@ -1,0 +1,28 @@
+.mainArticle__media {
+    display: grid;
+    padding-top: 5%;
+    grid-area:  content;
+}
+
+.mainArticle__articleText {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    grid-area: content;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.mainArticle__articleText2 {
+    grid-area: content;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: auto;
+    height: 100%;
+    background-image: linear-gradient(white, rgb(102, 25, 25) white);
+    position: absolute;
+}
+
+.mainArticle_text {
+    position: relative;
+}

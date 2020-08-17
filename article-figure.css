@@ -17,8 +17,10 @@
 .coverPhoto__image {
 	grid-column-start: 2;
 	grid-column-end: 5;
+	width: 100%;
 }
 
 .caption__photographer {
+	font-weight: 600;
 	color: hsl(0, 0%, 16%);
 }

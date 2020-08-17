@@ -1,0 +1,35 @@
+.colophon {
+	display: grid;
+	grid-area: colophon;
+	font-size: 0.9em;
+	color: hsl(0, 0%, 0%);
+	padding-top: 20px ;
+}
+
+.field {
+	font-weight: 700;
+	color:  hsl(0, 92%, 49%);
+	grid-column: 1;
+	width: 80%;
+	border-bottom: 1px dotted hsl(0, 0%, 20%);
+}
+
+.date{
+	font-weight: 600;
+	margin-left: 50px;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	border-bottom: 1px dotted hsl(0, 0%, 0%);
+}
+
+.comments {
+	width: 100%;
+	font-weight: 600;
+	grid-column-start: 3;
+	grid-column-end: 5;
+	border-bottom: 1px dotted hsl(0, 0%, 0%);
+	text-align: right;
+	margin-right: 120px;
+}
+
+

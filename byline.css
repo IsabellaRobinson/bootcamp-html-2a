@@ -1,0 +1,27 @@
+.byline {
+     display: flex;
+    grid-area: byline;
+    font-size: 14px;
+}
+.byline__photoJakob {
+    height: 80px;
+}
+
+.byline__name {
+    margin-top: 10px;
+    font-weight: 700;
+    margin-left: 20px;
+    color: hsl(0, 0%, 0%);
+}
+
+.byline__contact {
+    font-weight: 300;
+}
+
+.field {
+	font-weight: 700;
+	color:  hsl(0, 92%, 49%);
+	grid-column: 1;
+	width: 100%;
+    border-bottom: 1px dotted hsl(0, 0%, 20%);
+}
